@@ -1,0 +1,55 @@
+/**
+Testimonial Block styles
+*/
+
+
+
+
+.testimonial {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1rem;
+	border-radius: 15px;
+
+	blockquote {
+		display: flex;
+		flex-direction: column;
+		flex-grow: 1;
+		margin-bottom: 0;
+		padding: 1rem1.5rem;
+
+		.testimoial-text {
+			flex-grow: 1;
+			font-size: 2rem;
+			margin-bottom: 1.5rem;
+			padding: 0 0.5rem;
+			position: relative;
+
+			.fa {
+				font-size: 1rem;
+				position: absolute;
+
+				&.fa-quote-left {
+					top: 0.4rem;
+					left: -0.8rem;
+				}
+			}
+			.testimonial-image {
+				border-radius: 15px;
+			}
+
+		}
+		.testimonial-author {
+			font-weight: 500;
+		}
+		.testimonial-role {
+			font-size: 0.75rem;
+			font-style: italic;
+		}
+	}
+
+
+
+}
+
+
