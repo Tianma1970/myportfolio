@@ -5,14 +5,15 @@
                 <!--The animator-->
                 	<div class="container">
                         <div class="data mt-9 mt-1">
-                            <input type="radio" name="data"         value="85"><label>WordPress</label>
-                            <input type="radio" name="data"         value="99"><label>i18n</label>
-                            <input type="radio" name="data"         value="60"><label>Docker</label>
-                            <input type="radio" name="data"         value="65"><label>PHP</label>
-                            <input type="radio" name="data"         value="70"><label>JavaScript</label>
-                            <input type="radio" name="data"         value="90"><label>HTML</label>
-                            <input type="radio" name="data"         value="90"><label>CSS</label>
-                            <input type="radio" name="data"         value="85"><label>SCRUM</label>
+                            <input type="radio" name="data"         value="<?php the_field('wordpress'); ?>"><label>WordPress</label>
+                            <input type="radio" name="data"         value="<?php the_field('i18n') ;?>"><label>i18n</label>
+                            <input type="radio" name="data"         value="<?php the_field('laravel') ;?>"><label>Laravel</label>
+                            <input type="radio" name="data"         value="<?php the_field('docker') ;?>"><label>Docker</label>
+                            <input type="radio" name="data"         value="<?php the_field('php') ;?>"><label>PHP</label>
+                            <input type="radio" name="data"         value="<?php the_field('javascript') ;?>"><label>JavaScript</label>
+                            <input type="radio" name="data"         value="<?php the_field('html') ;?>"><label>HTML</label>
+                            <input type="radio" name="data"         value="<?php the_field('css') ;?>"><label>CSS</label>
+                            <input type="radio" name="data"         value="<?php the_field('scrum') ;?>"><label>SCRUM</label>
                             <input type="radio" name="data"         value=""><label><?php _e('Reset Data', 'portfolio')?></label>
                         </div>
                     <div class="datas col-md-9 xs-6 offset-5">
