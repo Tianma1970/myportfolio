@@ -1,7 +1,6 @@
-<h1>My Programming skills</h1>
+<h1><?php _e('My Programming skills', ''); ?></h1>
 
 
-<?php printf(__('My Programming skills', 'portfolio')); ?>
                 <!--The animator-->
                 	<div class="container">
                         <div class="data mt-9 mt-1">
@@ -16,7 +15,7 @@
                             <input type="radio" name="data"         value="<?php the_field('scrum') ;?>"><label>SCRUM</label>
                             <input type="radio" name="data"         value=""><label><?php _e('Reset Data', 'portfolio')?></label>
                         </div>
-                    <div class="datas col-md-9 xs-6 offset-5">
+                    <div class="datas col-md-9 xs-6">
                         <div class="column c-3">
 
 
