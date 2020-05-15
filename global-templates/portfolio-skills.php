@@ -10,6 +10,7 @@
                             <input type="radio" name="data" value="<?php the_field('docker') ;?>"><label>Docker</label><br>
                             <input type="radio" name="data" value="<?php the_field('php') ;?>"><label>PHP</label><br>
                             <input type="radio" name="data" value="<?php the_field('javascript') ;?>"><label>JavaScript</label><br>
+                            <input type="radio" name="data" value="<?php the_field('node') ;?>"><label>Node</label><br>
                             <input type="radio" name="data" value="<?php the_field('html') ;?>"><label>HTML</label><br>
                             <input type="radio" name="data" value="<?php the_field('css') ;?>"><label>CSS</label><br>
                             <input type="radio" name="data" value="<?php the_field('scrum') ;?>"><label>SCRUM</label><br>
@@ -61,6 +62,3 @@
                         </div>
                     </div>
                 </div>
-
-
-
