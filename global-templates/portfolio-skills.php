@@ -3,7 +3,7 @@
                 <div class="container mt-5">
 					<h1 class="text-center"><?php _e('My Programming skills', 'portfolio'); ?></h1>
 					<div class="row justify-content-around">
-                        <div class="data mt-9 mt-1 col-3">
+                        <div class="data mt-9 mt-1 col-md-3 col-8">
                             <input type="radio" name="data" value="<?php the_field('wordpress'); ?>"><label>WordPress</label><br>
                             <input type="radio" name="data" value="<?php the_field('i18n') ;?>"><label>i18n</label><br>
                             <input type="radio" name="data" value="<?php the_field('laravel') ;?>"><label>Laravel</label><br>
@@ -16,7 +16,7 @@
                             <input type="radio" name="data" value="<?php the_field('scrum') ;?>"><label>SCRUM</label><br>
                             <input type="radio" name="data" value=""><label><?php _e('Reset Data', 'portfolio')?></label>
                         </div>
-                    	<div class="datas col-3 mt-1 xs-6">
+                    	<div class="datas col-8 col-md-3 mt-1">
                         	<div class="column c-3">
   	                        	<div class="lc mt-4">
   	                            	<div class="numbers n-100">
