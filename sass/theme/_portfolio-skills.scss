@@ -1,38 +1,28 @@
-/*
-body {
-	background-color: $gray-400;
-	text-align: center;
-	padding-left: auto;
-
-	.progress-bar{
-		background-color: $secondary;
-		width: 70%;
-	}
+body{
+	background-color: rgb(212, 206, 206);
 }
+.data{
+	border-style: solid;
+	border-radius: 10px;
+}
+
 /*The animator styles*/
 .datas{
-  display: flex;
-  flex-direction: column;
-  width: 300px;
   height: 100px;
   border-radius: 10px;
   background-color: rgba(0,0,0,0.5);
   color: white;
-  margin-bottom: 10px;
 }
 
-.data{
-  display: flex;
-  justify-content: space-between;
-  margin-left: 50px;
-}
+
 .lc{
   display: flex;
   height: 30px;
   overflow: hidden;
   padding-left: 0px;
   margin-top: 10px;
-  margin-left: 90px;
+	margin-left: 90px;
+	width:110px;
 }
 .numbers>div{
   border-top: 1px solid #6c5c5d;
